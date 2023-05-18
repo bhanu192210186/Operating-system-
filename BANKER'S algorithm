@@ -86,34 +86,46 @@ int main()
 OUTPUT:
 
 
-Process 4 runs to completion!
- Max matrix:    Allocation matrix:
-0  0  0  0              0  0  0  0
-5  2  5  2              3  1  2  1
-2  3  1  6              2  1  0  3
-0  0  0  0              0  0  0  0
-3  6  6  5              1  4  3  2
-
-Process 2 runs to completion!
- Max matrix:    Allocation matrix:
-0  0  0  0              0  0  0  0
-0  0  0  0              0  0  0  0
-2  3  1  6              2  1  0  3
-0  0  0  0              0  0  0  0
-3  6  6  5              1  4  3  2
-
-Process 3 runs to completion!
- Max matrix:    Allocation matrix:
-0  0  0  0              0  0  0  0
-0  0  0  0              0  0  0  0
-0  0  0  0              0  0  0  0
-0  0  0  0              0  0  0  0
-3  6  6  5              1  4  3  2
-
-Process 5 runs to completion!
-The system is in a safe state!!
-Safe Sequence : < 1  4  2  3  5  >
-
+Enter number of processes: 5
+Enter the number of Resources: 3
+Enter the Values of Allocation Matrix:
+Enter value at position (11) :0
+Enter value at position (12) :1
+Enter value at position (13) :0
+Enter value at position (21) :2
+Enter value at position (22) :0
+Enter value at position (23) :0
+Enter value at position (31) :3
+Enter value at position (32) :0
+Enter value at position (33) :2
+Enter value at position (41) :2
+Enter value at position (42) :1
+Enter value at position (43) :1
+Enter value at position (51) :0
+Enter value at position (52) :0
+Enter value at position (53) :2
+Enter the Values of Max Matrix:
+Enter value at position (11) :7
+Enter value at position (12) :5
+Enter value at position (13) :3
+Enter value at position (21) :3
+Enter value at position (22) :2
+Enter value at position (23) :2
+Enter value at position (31) :9
+Enter value at position (32) :0
+Enter value at position (33) :2
+Enter value at position (41) :2
+Enter value at position (42) :2
+Enter value at position (43) :2
+Enter value at position (51) :4
+Enter value at position (52) :3
+Enter value at position (53) :3
+Enter the values in available:
+Enter value at position (1) :3
+Enter value at position (2) :3
+Enter value at position (3) :2
+The SAFE SEQUENCE is:
+ P1 -> P3 -> P4 -> P0 -> P2
 --------------------------------
-Process exited after 159.5 seconds with return value 0
+Process exited after 75.18 seconds with return value 0
 Press any key to continue . . .
