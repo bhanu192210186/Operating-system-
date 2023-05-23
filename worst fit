@@ -1,3 +1,5 @@
+INPUT:
+
 #include<stdio.h>
 #define MAX 25
 
@@ -56,3 +58,33 @@ int main()
     getchar();
     return 0;
 }
+OUTPUT:
+
+
+        Memory Management Scheme - First Fit
+Enter the number of blocks:6
+Enter the number of files:4
+
+Enter the size of the blocks:-
+Block 1:200
+Block 2:400
+Block 3:600
+Block 4:500
+Block 5:300
+Block 6:250
+Enter the size of the files :-
+File 1:357
+File 2:210
+File 3:468
+File 4:491
+
+File_no:        File_size :     Block_no:       Block_size:     Fragement
+1               357             2               400             43
+2               210             3               600             390
+3               468             4               500             32
+4               491             0               3               -241
+--------------------------------
+Process exited after 131.3 seconds with return value 0
+Press any key to continue . . .
+
+
